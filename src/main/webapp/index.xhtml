@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	
+<h:body>
+	<h:form>
+		<h:outputText value="Wybierz test" />
+		<h:commandButton action="#{testBean.printItems()}" value="Print items" />
+		<h:commandButton action="#{testBean.shoppingTest()}" value="Shopping TEST" />
+		<h:commandButton action="#{testBean.newProductTest()}" value="New Product TEST" />
+		<h:commandButton action="#{testBean.deleteProductTest()}" value="Delete Product TEST" />
+		<h:commandButton action="#{testBean.newCategoryTest()}" value="New Category Test" />
+		<h:commandButton action="#{testBean.updateCategoryTest()}" value="Update Category TEST" />
+	</h:form>
+</h:body>
+</html>
